@@ -1,0 +1,22 @@
+.btnNumber {
+    display: grid;
+    /* Будет создано 3 колонки */
+    grid-template-columns: 100px 100px 100px;
+    /* Будет создано 3 ряда */
+    grid-template-rows: 100px 100px 100px 50px;
+  }
+  .btnNumber :last-child{
+    grid-column: span 3;
+  }
+  .btnsymbols{
+    display: grid;
+    grid-template-columns: 100px;
+    grid-template-rows: repeat(5, 1fr);
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+  #displayBoard{
+    width: 397px;
+  }
