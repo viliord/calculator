@@ -1,0 +1,22 @@
+.container {
+    width: 1024px;
+    margin: 0 auto;
+  
+  }
+  
+  nav ul {
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    padding-right: 35px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
